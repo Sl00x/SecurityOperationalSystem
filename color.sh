@@ -1,0 +1,9 @@
+#!bin/bash
+_DEFAULT="\x1B[39m"
+_RED="\x1B[31m"
+_GREEN="\x1B[32m"
+_BLUE="\x1B[33m"
+_BLINK="\x1B[5m"
+_HIDDEN="\x1B[8m"
+_INVERTED="\x1B[7m"
+_NONE="\x1B[0m\x1B[39m"

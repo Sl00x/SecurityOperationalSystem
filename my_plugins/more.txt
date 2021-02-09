@@ -1,0 +1,6 @@
+Commands need add into /system/commands.sh
+Commands need add into /system/commands_exec.sh -> function
+Commands need add into /system/commands_args.sh if using args (false, both, true)
+Commands need add into /system/commands.sh
+Commands need add into /system/commands_exec.sh -> function
+Commands need add into /system/commands_args.sh if using args (false, both, true)

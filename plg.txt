@@ -1,0 +1,29 @@
+
+FR: Tu est un développeur Shell avec de l'expérience ou avec l'envie d'apprendre.
+    Je te propose ici un court tutoriel pour créer tes plugins de pentest ou des
+    fonctions pour rendre ton terminal SoP plus ludique pour toi.
+
+
+EN: You are shell developper and you have some experiences or you want to learn more.
+    I purpose you to give you little tutorial about, How to create you pentest plugin or 
+    simple script.
+
+
+
+#FRENCH
+
+Premierement il vous faut toucher a 4 fichiers.
+plug.sh -> pour ajouter vos plugins sinon ils ne seront pas lus.
+puis vous allez dans system/ -> répertoire system de SoP
+pour y modifier
+commands.sh -> definir une appelation de la commande
+commands_exec.sh -> appel de la function qui vient d'être crée.
+commands_args.sh -> definir par si votre fonction utilise des arguments.
+                    par les appelation: 
+                        * "true" -> oui avec obligation sinon erreur
+                        * "both" -> oui et non
+                        * "false" -> aucun argument n'est demandé.
+voila votre plugin viens d'être ajouter
+utiliser quit pour quitter SoP
+et relancer le terminal :D
+
